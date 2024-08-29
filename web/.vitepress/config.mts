@@ -4,11 +4,8 @@ import { extractHeadings } from './plugins/extractHeadings';
 
 export default defineConfig({
   base: '/',
-  import { defineConfig } from 'vitepress';
-
-export default defineConfig({
-    base: '/sofa/', // Use 'sofa' here as shown or replace with your actual repository name if it's different
-    title: 'SOFA - by Mac Admins Open Source',
+  title: 'SOFA - by Mac Admins Open Source',
+  description: 'SOFA supports MacAdmins by efficiently tracking and surfacing information on updates for macOS and iOS.',
   themeConfig: {
     logo: '/custom_logo.png',
     head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
